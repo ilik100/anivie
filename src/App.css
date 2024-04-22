@@ -56,6 +56,7 @@
 
 .header-menu {
   display: flex;
+  list-style-type: none;
 }
 
 .btn-search-anim {
