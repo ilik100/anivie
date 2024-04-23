@@ -1,12 +1,13 @@
 import React from "react";
 import "./App.css";
+import Ongoyings from "./components/Ongoyings/Ongoyings";
 
 function App(props) {
   return (
     <div className="App">
       {/* Шапка сайта начало*/}
       <div className="header">
-        {/* <a href="/" className="logo">{state.headerData.search}</a> */}
+        <div className="logo">Лого</div>
         <ul className="header-menu">
           <li>{props.state.headerData.text1}</li>
           <li>{props.state.headerData.text2}</li>
@@ -16,16 +17,11 @@ function App(props) {
           <li>{props.state.headerData.text6}</li>
           <li>{props.state.headerData.text7}</li>
         </ul>
-        <div
-          className="btn-search-anim"
-          style={{
-            // Получаем в фон картинку из нашей мини базы
-            backgroundImage: `url(${props.state.headerData.search})`,
-          }}
-        ></div>
+        <div className="btn-search-anim">Поиск</div>
         <div className="btn-login">Логин</div>
       </div>
       {/* Шапка сайта конец*/}
+      <Ongoyings />
     </div>
   );
 }
