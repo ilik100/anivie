@@ -3,9 +3,11 @@ import "./Ongoyings.css";
 
 const Ongoyings = () => {
     return (
-      <>
-      Ongoyings
-      </>
+      <div>
+        {props.ongoyingsData.map((img)=> {
+          <a></a>
+        })}
+      </div>
     );
   };
   

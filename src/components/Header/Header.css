@@ -1,0 +1,33 @@
+/* Шапка сайта начало */
+.header {
+  display: flex;
+  width: 1920px;
+  height: 66px;
+  border: 1px solid black;
+  margin: 0 auto;
+  background-color: #2b2f39;
+  color: #f2f2f3;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.header-menu {
+  display: flex;
+  list-style-type: none;
+  gap: 100px;
+  margin: 0 auto;
+}
+
+.btn-search-anim {
+  width: 100px;
+  height: 66px;
+}
+
+.btn-login {
+  width: 100px;
+  height: 66px;
+}
+/* Шапка сайта конец*/
