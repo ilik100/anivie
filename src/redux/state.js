@@ -1,32 +1,4 @@
 let state = {
-  // Просто пример из старого кода можно удалить
-  // bouquetsData: [
-  //   {
-  //     id: 1,
-  //     image: require("../assets/Pictures-of-bouquets/bouquets-400х400-1.jpg"),
-  //     text: "нет текста",
-  //     button: "нет цены",
-  //   },
-  //   {
-  //     id: 2,
-  //     image: require("../assets/Pictures-of-bouquets/bouquets-400х400-2.jpg"),
-  //     text: "нет текста",
-  //     button: "нет цены",
-  //   },
-  //   {
-  //     id: 3,
-  //     image: require("../assets/Pictures-of-bouquets/bouquets-400х400-3.jpg"),
-  //     text: "нет текста",
-  //     button: "нет цены",
-  //   },
-  //   {
-  //     id: 4,
-  //     image: require("../assets/Pictures-of-bouquets/bouquets-400х400-4.jpg"),
-  //     text: "нет текста",
-  //     button: "нет цены",
-  //   },
-  // ],
-
   // Мой обьект с данными для шапки сайта
   headerData: {
     logo: require("../assets/Header-icons/header-icon-search.svg"),
@@ -43,28 +15,21 @@ let state = {
   ongoyingsData: [
     {
       id: 1,
-      image: require("../assets/Ongoyings/images/1)poster_blagoslovlennoe_lunnym_svetom_prikljuchenie_v_drugom_mire_tv.jpg"),
+      image: require("../assets/Ongoyings/images/1684234884-poster-v-pogone-za-dengami-glavnaja-missija.jpg"),
     },
     {
       id: 2,
-      image: require("../assets/Ongoyings/images/2)1684234884_poster_v_pogone_za_dengami_glavnaja_missija.jpg"),
+      image: require("../assets/Ongoyings/images/1684234884-poster-v-pogone-za-dengami-glavnaja-missija.jpg"),
     },
     {
       id: 3,
-      image: require("../assets/Ongoyings/images/3)poster_perevoplotilsja_v_sedmogo_princa.jpg"),
+      image: require("../assets/Ongoyings/images/1684234884-poster-v-pogone-za-dengami-glavnaja-missija.jpg"),
     },
     {
       id: 4,
-      image: require("../assets/Ongoyings/images/4)poster_rycari_zodiaka_svjatoj_sjejja_tv_2.jpg"),
+      image: require("../assets/Ongoyings/images/1684234884-poster-v-pogone-za-dengami-glavnaja-missija.jpg"),
     },
   ],
 };
 
 export default state;
-
-//   {
-//     id: 4,
-//     image: require("../assets/Pictures-of-bouquets/bouquets-400х400-4.jpg"),
-//     text: "нет текста",
-//     button: "нет цены",
-//   },
