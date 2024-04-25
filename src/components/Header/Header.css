@@ -1,33 +1,54 @@
 /* Шапка сайта начало */
 .header {
   display: flex;
-  width: 1920px;
-  height: 66px;
-  border: 1px solid black;
+  width: 1126px;
+  height: 101px;
+  border: 1px solid white;
   margin: 0 auto;
-  background-color: #2b2f39;
+  /* background-color: #2b2f39; */
   color: #f2f2f3;
+  justify-content: space-between;
 }
 
-.logo {
-  width: 100px;
-  height: 100px;
+.header-btn-menu {
+  width: 24px;
+  height: 24px;
+  border: 1px solid white;
 }
 
-.header-menu {
+.header-logo {
   display: flex;
-  list-style-type: none;
-  gap: 100px;
-  margin: 0 auto;
+  width: 200px;
+  height: 32px;
+  border: 1px solid white;
+}
+
+.logo-text-left {
+  color: #fefefe;
+}
+.logo-text-right {
+  color: #ffb900;
 }
 
 .btn-search-anim {
-  width: 100px;
-  height: 66px;
+  width: 581.27px;
+  height: 36px;
+  border: 1px solid white;
+  background-color: #303442;
 }
 
-.btn-login {
-  width: 100px;
-  height: 66px;
+.theme-toggle {
+  width: 72px;
+  height: 36px;
+  border: 1px solid white;
+  background-color: #4d4f69;
 }
+
+.header-btn-login {
+  width: 128.73px;
+  height: 36px;
+  border: 1px solid white;
+  background-color: #4d4f69;
+}
+
 /* Шапка сайта конец*/

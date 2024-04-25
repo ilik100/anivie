@@ -7,7 +7,7 @@ function App(props) {
   return (
     <div className="App">
       <Header headerData={props.state.headerData}/>
-      <Ongoyings ongoyingsData={props.state.ongoyingsData}/>
+      {/* <Ongoyings ongoyingsData={props.state.ongoyingsData}/> */}
     </div>
   );
 }
