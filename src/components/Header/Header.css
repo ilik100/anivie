@@ -1,4 +1,5 @@
 /* Шапка сайта начало */
+/* Шапка сайта главный блок начало */
 .header {
   display: flex;
   width: 1126px;
@@ -9,46 +10,95 @@
   color: #f2f2f3;
   justify-content: space-between;
 }
+/* Шапка сайта главный блок конец */
 
+/* Кнопка меню в шапке сайта начало */
 .header-btn-menu {
   width: 24px;
   height: 24px;
   border: 1px solid white;
 }
+/* Кнопка меню в шапке сайта конец */
 
+/* Логотип в шапке сайта начало */
 .header-logo {
   display: flex;
   width: 200px;
   height: 32px;
   border: 1px solid white;
 }
+/* Логотип в шапке сайта конец */
 
+/* Текст логотоипа левый в шапке сайта начало */
 .logo-text-left {
   color: #fefefe;
 }
+/* Текст логотоипа левый в шапке сайта конец */
+
+/* Текст логотоипа правый в шапке сайта начало */
 .logo-text-right {
   color: #ffb900;
 }
+/* Текст логотоипа правый в шапке сайта конец */
 
-.btn-search-anim {
+/* Поиск по сайту в шапке сайта начало */
+.search-anim {
+  display: flex;
   width: 581.27px;
   height: 36px;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   background-color: #303442;
 }
+/* Поиск по сайту в шапке сайта конец */
 
+.input-search-anim {
+  width: 500px;
+  height: 30px;
+  background-color: #303442;
+  /* border: none; */
+}
+
+.input-search-anim:focus::-webkit-input-placeholder {
+  opacity: 0;
+}
+.ininput-search-animput:focus::-moz-placeholder {
+  opacity: 0;
+}
+.input-search-anim:focus:-ms-input-placeholder {
+  opacity: 0;
+}
+.input-search-anim:focus:-moz-placeholder {
+  opacity: 0;
+}
+
+/* кнопка поиск по сайту в шапке сайта начало */
+.btn-search-anim {
+  width: 36px;
+  height: 36px;
+  margin: 0 31.635px 0 31.635px;
+}
+/* кнопка поиск по сайту в шапке сайта конец */
+
+/* Кнопка смены темы сайта в шапке сайта начало */
 .theme-toggle {
   width: 72px;
   height: 36px;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   background-color: #4d4f69;
 }
+/* Кнопка смены темы сайта в шапке сайта конец */
 
+/* Кнопка логиниться в шапке сайта начало */
 .header-btn-login {
   width: 128.73px;
   height: 36px;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   background-color: #4d4f69;
 }
-
+/* Кнопка логиниться в шапке сайта конец */
 /* Шапка сайта конец*/
+
+.test {
+  width: 100px;
+  height: 100px;
+}

@@ -1,7 +1,10 @@
 import React from "react";
 import "./Header.css";
 
-const Header = (props) => {
+const Header = () => {
+  const iconSearch =
+    "https://icon-icons.com/icons2/2406/PNG/512/search_magnifier_icon_145939.png";
+
   return (
     <div>
       <div className="header">
@@ -10,17 +13,10 @@ const Header = (props) => {
           <p className="logo-text-left">ANI</p>
           <p className="logo-text-right">VIE</p>
         </div>
-        {/* список ниже корее всего не нужен  */}
-        {/* <ul className="header-menu">
-          <li>{props.headerData.text1}</li>
-          <li>{props.headerData.text2}</li>
-          <li>{props.headerData.text3}</li>
-          <li>{props.headerData.text4}</li>
-          <li>{props.headerData.text5}</li>
-          <li>{props.headerData.text6}</li>
-          <li>{props.headerData.text7}</li>
-        </ul> */}
-        <div className="btn-search-anim">Поиск</div>
+        <div className="search-anim">
+          <input className="input-search-anim" placeholder="Поиск по сайту..." type="text"  />
+          <img className="btn-search-anim" src={iconSearch} alt="Error" />
+        </div>
         <div className="theme-toggle">Тема</div>
         <div className="header-btn-login">Логин</div>
       </div>
