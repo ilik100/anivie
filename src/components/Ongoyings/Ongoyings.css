@@ -4,7 +4,7 @@
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 635px;
-  /* border: 1px solid black; */
+  border: 1px solid white;
 
   width: 840px; /* мое новое  */
   width: 976px;
@@ -22,7 +22,7 @@
   width: 375px;
   margin: 1rem;
   text-decoration: none;
-  /* border: 1px solid black; */
+  border: 1px solid white;
 
   width: 250px; /* мое новое  */
   margin: 0; /* мое новое  */
@@ -36,5 +36,5 @@
   background-repeat: no-repeat;
   width: 250px;
   height: 250px;
-  /* border: 1px solid black; */
+  /* border: 1px solid white; */
 }

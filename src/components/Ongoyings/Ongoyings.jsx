@@ -17,7 +17,7 @@ const Ongoyings = (props) => {
               style={{
                 // Получаем в фон картинку из нашей мини базы
                 backgroundImage: `url(${img.image})`,
-              }}
+              }} 
             ></div>
            
           </a>
