@@ -1,4 +1,9 @@
 /* Шапка сайта начало */
+
+.header-container {
+  background-color: #181d2d;
+} 
+
 /* Шапка сайта главный блок начало */
 .header {
   display: flex;
@@ -25,19 +30,23 @@
   display: flex;
   width: 200px;
   height: 32px;
-  border: 1px solid white;
+  /* border: 1px solid white; */
 }
 /* Логотип в шапке сайта конец */
 
 /* Текст логотоипа левый в шапке сайта начало */
 .logo-text-left {
   color: #fefefe;
+  font-size: 22px; /* Свойство font-size определяет размер шрифта */
+  margin: 0; /* свойство margin определяет внешний отступ на всех четырёх сторонах элемента */
 }
 /* Текст логотоипа левый в шапке сайта конец */
 
 /* Текст логотоипа правый в шапке сайта начало */
 .logo-text-right {
   color: #ffb900;
+  font-size: 22px; /* Свойство font-size определяет размер шрифта */
+  margin: 0; /* свойство margin определяет внешний отступ на всех четырёх сторонах элемента */
 }
 /* Текст логотоипа правый в шапке сайта конец */
 
@@ -85,6 +94,11 @@
   height: 36px;
   /* border: 1px solid white; */
   background-color: #4d4f69;
+}
+
+.theme-toggle p {
+  text-align: center;
+  margin: 0 auto;
 }
 /* Кнопка смены темы сайта в шапке сайта конец */
 
