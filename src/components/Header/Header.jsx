@@ -42,7 +42,7 @@ const Header = () => {
         <div className="theme-toggle" onClick={handleClick}>
           Тема
         </div>
-        <div className="header-btn-login">Логин</div>
+        <div className="header-btn-login">Войти на сайт</div>
       </div>
     </div>
   );
