@@ -5,9 +5,7 @@
   margin-left: auto;
   margin-bottom: 635px;
   border: 1px solid black;
-
-  width: 840px; /* мое новое  */
-  width: 976px;
+  width: 1126px;
   height: 1190px; /* мое новое  */
 }
 
@@ -20,8 +18,10 @@
 }
 
 .bottom-line {
-  width: 976px;
+  width: 1126px;
+
   border-top: 3px solid black;
+  margin-bottom: 20px;
 }
 
 /* .editor_selections_items {
@@ -29,25 +29,48 @@
     border: 1px solid black;
   } */
 
+
+
 .editor_selections_item {
   display: block;
   float: left;
-  width: 375px;
+  width: 201.19px;
+  height: 368.8px;
   margin: 1rem;
   text-decoration: none;
   /* border: 1px solid black; */
 
-  width: 250px; /* мое новое  */
+  /* width: 250px; мое новое  */
   margin: 0; /* мое новое  */
 
-  margin: 10px 28px 10px 0;
+  /* margin: 10px 28px 10px 0; */
+  margin: 0px 11px 0px 11px;
+  
+
+
 }
 
 .image {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width: 250px;
-  height: 250px;
+  width: 201.19px;
+  height: 301.78px;
   /* border: 1px solid black; */
 }
+
+.novelties-data-name {
+  width: 201.19px;
+  height: 23px;
+  margin: 0 auto;
+  text-align: center; /* выровнить текст в блоке по центру */
+}
+
+.novelties-data-date {
+  width: 201.19px;
+  height: 19px;
+  margin: 0 auto;
+  text-align: center; /* выровнить текст в блоке по центру */
+}
+
+

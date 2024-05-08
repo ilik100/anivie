@@ -111,7 +111,7 @@
   height: 36px;
   /* border: 1px solid white; */
   background-color: #4d4f69;
-  text-align: center;
+  text-align: center; /* выровнить текст в блоке по центру */
   padding: 5px 0px 0px 0px;
 }
 /* Кнопка логиниться в шапке сайта конец */

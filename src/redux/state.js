@@ -24,6 +24,24 @@ let state = {
       name: "Название 4",
       date: "2004",
     },
+    {
+      id: 5,
+      image: require("../assets/Ongoyings/images/1684234884-poster-v-pogone-za-dengami-glavnaja-missija.jpg"),
+      name: "Название 5",
+      date: "2005",
+    },
+    {
+      id: 6,
+      image: require("../assets/Ongoyings/images/1684234884-poster-v-pogone-za-dengami-glavnaja-missija.jpg"),
+      name: "Название 6",
+      date: "2006",
+    },
+    {
+      id: 7,
+      image: require("../assets/Ongoyings/images/1684234884-poster-v-pogone-za-dengami-glavnaja-missija.jpg"),
+      name: "Название 7",
+      date: "2007",
+    },
   ], 
 };
 

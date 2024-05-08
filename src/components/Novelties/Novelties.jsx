@@ -31,8 +31,8 @@ const Novelties = (props) => {
                 backgroundImage: `url(${img.image})`,
               }}
             ></div>
-            <p>{img.name}</p>
-            <p>{img.date}</p>
+            <div className="novelties-data-name">{img.name}</div>
+            <div className="novelties-data-date">{img.date}</div>
           </a>
         ))}
       </div>
